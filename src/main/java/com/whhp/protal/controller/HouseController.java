@@ -170,7 +170,6 @@ public class HouseController {
 		}
 			//回显查询条
 		model.addAttribute("condition",condition);
-		System.out.println("dhsjkhd但是看得见 = " + condition);
 		return "list";
 	}
 }

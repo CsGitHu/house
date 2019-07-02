@@ -284,7 +284,7 @@
         <if test="tid!=null">
             and t.id = #{tid}
         </if>
-        <if test="flooa!=null">
+        <if test="startFlooa!=null">
             and floorage between #{startFlooa} and #{endFlooa}
         </if>
     </select>
